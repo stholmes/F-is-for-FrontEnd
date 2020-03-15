@@ -1,0 +1,415 @@
+/* Resetting styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+  background-color: #2b2c2d;
+  height: 100px;
+  font-family: "Audiowide", cursive;
+}
+
+.banner > h1 {
+  padding-left: 20px;
+  color: rgb(230, 47, 47);
+  margin-right: 10%;
+  font-size: 5rem;
+}
+
+/* Scores ticker */
+/* .scores-ticker controls display value for responsiveness */
+
+.game {
+  height: 73px;
+  background-color: rgb(221, 230, 221);
+  font-family: "open sans", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding-left: 5px;
+  margin-top: 1px;
+}
+.ticker-header {
+  text-align: center;
+  line-height: 73px;
+  width: 10%;
+}
+.time {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.score {
+  margin-left: 15px;
+}
+
+.team {
+  width: 50%;
+}
+
+/* Column structure */
+/* Media queries control column display values and */
+.col-1 {
+  width: 20%;
+  margin-left: 2%;
+}
+
+.col-2 {
+  width: 50%;
+  padding-left: 2.5%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+/* Card */
+.card {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgba(155, 155, 155, 0.25);
+  margin-bottom: 25px;
+}
+
+.card-title {
+  border-bottom: 1px solid gray;
+  padding-top: 10px;
+  background-color: rgba(155, 155, 155, 0.25);
+  text-align: center;
+}
+
+.featured-content > h3 {
+  margin: 5px 0;
+}
+
+.card > p {
+  margin-bottom: 10px;
+}
+
+/* For main-content images only */
+.feature-img {
+  height: auto;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  border-radius: 5px 5px 0 0;
+}
+
+img.feature-img:first-of-type {
+  border-radius: 0px;
+}
+
+.featured-content {
+  width: 95%;
+  margin-bottom: 50px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+main {
+  font-family: "open sans", Arial, Helvetica, sans-serif;
+}
+
+.featured-content h3,
+.featured-content p {
+  margin-left: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Jump to section links */
+.quick-links > a {
+  display: block;
+  height: 44px;
+}
+
+.quick-links > a:hover {
+  background-color: rgba(155, 155, 155, 0.25);
+}
+
+/* For icons used all over */
+.icon {
+  width: 44px;
+  height: 44px;
+  margin-left: 2%;
+}
+
+.icon-text {
+  margin-left: 2%;
+}
+
+/* "latest" news links */
+.news-links {
+  list-style: none;
+  margin-left: 5px;
+}
+
+.news-links > li {
+  margin-top: 10px;
+}
+
+.news-links > li > a {
+  text-decoration: none;
+  color: rgb(65, 65, 65);
+}
+
+.news-links > li > a:hover {
+  color: rgb(70, 188, 228);
+}
+
+/* Global classes styles */
+.inline-top {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.inline-middle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Fake Tweets */
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  line-height: 50px;
+  text-align: center;
+  background-color: #2b2c2d;
+  font-family: "Audiowide", cursive;
+  color: rgb(230, 47, 47);
+  margin: 15px;
+}
+
+.tweet-header {
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+  margin-top: 15px;
+}
+
+.tweet-content {
+  font-size: 12px;
+  text-align: justify;
+  margin: 10px;
+}
+.logo + h6 {
+  display: inline-block;
+  width: 50px;
+}
+
+/* Hamburger button for tablet and phone */
+.hamburger {
+  width: 45px;
+  height: 45px;
+  margin-top: 1.5px;
+  margin-left: 2%;
+  border: 1px solid black;
+}
+
+.section {
+  margin-top: 25px;
+}
+
+.line:first-child {
+  margin-top: 15px;
+}
+
+.line {
+  width: 80%;
+  margin: 5px auto 5px auto;
+  border: 1px solid black;
+}
+
+.feature-title {
+  background-color: rgb(230, 47, 47);
+  font-family: "Audiowide", cursive;
+  color: rgb(53, 53, 53);
+  border-radius: 5px 5px 0 0;
+  padding-left: 5px;
+}
+
+footer {
+  height: 100px;
+  background-color: #2b2c2d;
+}
+
+@media only screen and (max-width: 480px) {
+  .sm-0 {
+    display: none;
+  }
+
+  .sm-md-0 {
+    display: none;
+  }
+
+  .sm-md-center {
+    text-align: center;
+    display: block;
+    line-height: 100px;
+  }
+
+  .sm-md-12 {
+    display: block;
+    width: 95%;
+    margin: auto;
+  }
+
+  .menu {
+    display: static;
+    height: 50px;
+    margin-bottom: 25px;
+    background-color: rgb(247, 102, 102);
+  }
+
+  .banner {
+    margin-bottom: 0px;
+  }
+
+  .banner > h1 {
+    font-size: 35px;
+  }
+
+  .scores-ticker {
+    display: none;
+  }
+
+  .drop-down {
+    display: none;
+
+    width: 80%;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: -15px;
+    margin-left: 2%;
+    margin-bottom: 25px;
+  }
+
+  .jump-section {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .banner {
+    margin-bottom: 0px;
+  }
+
+  .banner > h1 {
+    font-size: 35px;
+  }
+
+  .md-0 {
+    display: none;
+  }
+
+  .sm-md-center {
+    text-align: center;
+    display: block;
+    line-height: 100px;
+  }
+
+  .sm-md-0 {
+    display: none;
+  }
+
+  .sm-md-12 {
+    display: block;
+    width: 95%;
+    margin: auto;
+  }
+
+  .menu {
+    display: static;
+    height: 50px;
+    margin-bottom: 25px;
+    background-color: rgba(247, 102, 102, 0.5);
+  }
+
+  .scores-ticker {
+    display: none;
+  }
+
+  .drop-down {
+    display: none;
+    width: 80%;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: -20px;
+    margin-left: 2%;
+    margin-bottom: 25px;
+  }
+
+  .jump-section {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .banner > h1 {
+    font-size: 4rem;
+  }
+
+  .lg {
+    display: inline-block;
+  }
+
+  .lg-3 {
+    display: inline-block;
+  }
+
+  .lg-banner {
+    padding-left: 20px;
+    color: rgb(245, 28, 28);
+    display: inline-block;
+    vertical-align: center;
+  }
+
+  .lg-6 {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding-left: 2.5%;
+  }
+
+  .lg-4 {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .scores-ticker {
+    display: block;
+    margin-bottom: 50px;
+    background-color: rgb(243, 243, 243);
+    height: 75px;
+    border-radius: 1px;
+    overflow: hidden;
+  }
+
+  .scores > h5 {
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    font-family: "Audiowide", cursive;
+  }
+
+  .lg-drop-down {
+    display: none;
+  }
+
+  .jump-section {
+    display: block;
+  }
+}

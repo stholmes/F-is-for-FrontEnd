@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>F-Guitars</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">F-guitars</h1>
+      <div class="header">
+        <div class="dropdown">
+          <button class="dropbtn">Guitars</button>
+          <div class="dropdown-content">
+            <a>F-Series</a>
+            <a>Hollow body electrics</a>
+            <a>Solid body electrics</a>
+            <a>Electrics acoustic</a>
+            <a>Featured Artists series</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Custom Shop</button>
+          <div class="dropdown-content">
+            <a>Build your guitar</a>
+            <a>Equipment list</a>
+            <a>Tour the shop</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Info</button>
+          <div class="dropdown-content">
+            <a>F-Series</a>
+            <a>The F-guitar story</a>
+            <a>Where to buy</a>
+            <a>Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="carousel">
+        <div class="card display" id="f-series">
+          <div class="image image-1"></div>
+          <div class="text">
+            <h1>Introducing the <span class="emphasis">F-Series</span></h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              similique dolore fugit fuga sequi temporibus ratione ducimus dolor
+              sed labore doloremque tempora, quod laudantium nobis dolorum.
+              Commodi ea inventore ullam.
+            </p>
+          </div>
+        </div>
+        <div class="card" id="featured-artist">
+          <div class="image image-2"></div>
+          <div class="text">
+            <h1>Featured <span class="emphasis">F-Series</span> artists</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              similique dolore fugit fuga sequi temporibus ratione ducimus dolor
+              sed labore doloremque tempora, quod laudantium nobis dolorum.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Explicabo, iste illo, magni nostrum sit ut soluta quam, cum
+              aperiam quidem voluptatibus nemo? Non doloremque eaque esse
+              inventore veritatis tenetur expedita.
+            </p>
+          </div>
+        </div>
+        <div class="card" id="repairs">
+          <div class="image image-3"></div>
+          <div class="text">
+            <h1>Need a repair? Contact our custom shop</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, rem
+              nihil, unde ad laudantium ab mollitia sequi quae saepe praesentium
+              sunt. A atque dolores odit asperiores nisi quibusdam maxime
+              explicabo!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="progress-bar">
+          <div class="circle selected" data-content="f-series"></div>
+          <div class="circle " data-content="featured-artist"></div>
+          <div class="circle " data-content="repairs"></div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
