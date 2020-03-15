@@ -30,7 +30,8 @@ header{
 
 .form-control{
     display:inline-block;
-    vertical-align: top;
+    vertical-align: middle;
+    height:49px;
 }
 
 .form-control label{
@@ -53,7 +54,7 @@ header{
     color:whitesmoke;
     cursor: pointer;
     display:inline-block;
-    vertical-align:bottom;
+    vertical-align:middle;
 }
 #log-in:hover{
     background-color: #3E5C9A;
@@ -85,7 +86,7 @@ main{
     color:red;
     text-align: left;
     font-size:.75rem;
-    display:none;
+    display: none;
 }
 
 
