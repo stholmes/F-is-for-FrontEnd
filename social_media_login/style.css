@@ -30,6 +30,7 @@ header{
 
 .form-control{
     display:inline-block;
+    vertical-align: top;
 }
 
 .form-control label{
@@ -51,6 +52,8 @@ header{
     height:24px;
     color:whitesmoke;
     cursor: pointer;
+    display:inline-block;
+    vertical-align:bottom;
 }
 #log-in:hover{
     background-color: #3E5C9A;
@@ -78,6 +81,13 @@ main{
 #welcome{
     padding-top:25px;
 }
+.validation{
+    color:red;
+    text-align: left;
+    font-size:.75rem;
+    display:none;
+}
+
 
 table {
     margin-top:50px;
@@ -91,6 +101,39 @@ footer {
     font-size: .75rem;
 }
 
+form{
+    padding:10px;
+}
+form input{
+    height:35px;
+    line-height:35px;
+    font-size:20px;
+    border-radius:2.5px;
+    border: none;
+}
+#firstName{
+    margin-right:5%;
+}
+#lastName, #firstName{
+    width:47%;
+    margin-top:25px;
+}
+.sign-up-control{
+    width:100%;
+    margin-top:25px;
+}
+
+[type=submit]{
+    height:50px;
+    width:125px;
+    color:white;
+    font-size:1.25rem;
+    border-radius:5px;
+    background-color:#5F954B;
+    margin-left:auto;
+    margin-top:25px;
+    display:block;
+}
 @media only screen and (min-width:900px){
     .content{
         width:65%;
