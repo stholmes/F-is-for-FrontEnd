@@ -16,10 +16,12 @@
                     <div class="form-control">
                         <label for="email">Email or Phone</label>
                         <input type="email">
+                        <p class="validation">Email/Phone not found</p>
                     </div>
                     <div  class="form-control">
                         <label for="password">Password</label>
                         <input type="password">
+                        <p class="validation">Password not found</p>
                     </div>
                     <button id="log-in">Log in</button>
                 </div>
@@ -45,7 +47,21 @@
                         </tr>
                     </table>
                 </div>
-                <div class="col"></div>
+                <div class="col">
+                    <form action="#" method="post">
+                        <h1>Sign Up</h1>
+                        <input type="text" name="firstName" id="firstName" value="First Name">
+                        <input type="text" name="lastName" id="lastName" value="Last Name">
+                        <div>
+                            <input class="sign-up-control" type="text" name="email" id="email" value="Email">
+                        </div>
+                        <div>
+                            <input class="sign-up-control" type="text" name="password" id="password" value="Password" >
+                        </div>
+                        <button type="submit">Sign Up</button>
+
+                    </form>
+                </div>
             </div>
         </main>
         <footer>
